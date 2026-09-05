@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+# Daily Steam Workshop snapshot collector for the seven tracked STS2 mods.
 import json
 import time
 import urllib.parse
