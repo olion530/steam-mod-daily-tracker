@@ -17,7 +17,9 @@ LATEST_JSON = DATA_DIR / "latest.json"
 LATEST_MD = DATA_DIR / "latest.md"
 
 STEAM_ENDPOINT = "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/"
+COMMENTS_ENDPOINT = "https://steamcommunity.com/comment/PublishedFile_Public/render/{owner}/{fileid}/"
 TZ = ZoneInfo("Asia/Shanghai")
+USER_AGENT = "sts2-mod-daily-tracker/1.1"
 
 MODS = [
     {"id": "3795933082", "name": "Yoink! — Speed Picks"},
@@ -33,7 +35,6 @@ STEAM_FIELDS = {
     "views": "views",
     "subscriptions": "subscriptions",
     "favorites": "favorited",
-    "comments": "num_comments_public",
 }
 
 
@@ -44,32 +45,52 @@ def to_int(value):
         return None
 
 
+def post_json(url: str, form: dict, timeout: int = 30) -> dict:
+    body = urllib.parse.urlencode(form).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=body,
+        method="POST",
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": USER_AGENT,
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
 def fetch_details() -> dict:
     form = {"itemcount": str(len(MODS))}
     for i, mod in enumerate(MODS):
         form[f"publishedfileids[{i}]"] = mod["id"]
 
-    body = urllib.parse.urlencode(form).encode("utf-8")
-    req = urllib.request.Request(
-        STEAM_ENDPOINT,
-        data=body,
-        method="POST",
-        headers={
-            "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": "sts2-mod-daily-tracker/1.0",
-        },
-    )
-
     last_error = None
     for attempt in range(3):
         try:
-            with urllib.request.urlopen(req, timeout=30) as response:
-                return json.loads(response.read().decode("utf-8"))
+            return post_json(STEAM_ENDPOINT, form)
         except Exception as exc:
             last_error = exc
             if attempt < 2:
                 time.sleep(3 * (attempt + 1))
     raise RuntimeError(f"Steam request failed after 3 attempts: {last_error}")
+
+
+def fetch_comment_count(owner: str | None, fileid: str) -> int | None:
+    if not owner:
+        return None
+    url = COMMENTS_ENDPOINT.format(owner=owner, fileid=fileid)
+    last_error = None
+    for attempt in range(3):
+        try:
+            payload = post_json(url, {"start": "0", "count": "1"}, timeout=20)
+            return to_int(payload.get("total_count"))
+        except Exception as exc:
+            last_error = exc
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+    print(f"Warning: comment count failed for {fileid}: {last_error}")
+    return None
 
 
 def load_previous(today: str) -> dict | None:
@@ -120,9 +141,12 @@ def main():
         for out_key, steam_key in STEAM_FIELDS.items():
             row[out_key] = to_int(item.get(steam_key)) if ok else None
 
+        owner = str(item.get("creator")) if ok and item.get("creator") else None
+        row["comments"] = fetch_comment_count(owner, wid) if ok else None
+
         old = prev_by_id.get(wid)
         delta = {}
-        for key in STEAM_FIELDS:
+        for key in ("views", "subscriptions", "favorites", "comments"):
             current_value = row.get(key)
             old_value = old.get(key) if old else None
             if isinstance(current_value, int) and isinstance(old_value, int):
@@ -136,7 +160,10 @@ def main():
         "date": today,
         "generated_at": now.isoformat(),
         "timezone": "Asia/Shanghai",
-        "source": STEAM_ENDPOINT,
+        "source": {
+            "stats": STEAM_ENDPOINT,
+            "comments": "Steam Community PublishedFile_Public comment endpoint",
+        },
         "mods": rows,
     }
 
