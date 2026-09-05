@@ -1,8 +1,11 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-06T01:53:47.037189+08:00",
+  "generated_at": "2026-09-06T01:54:20.839531+08:00",
   "timezone": "Asia/Shanghai",
-  "source": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "source": {
+    "stats": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+    "comments": "Steam Community PublishedFile_Public comment endpoint"
+  },
   "mods": [
     {
       "id": "3795933082",
@@ -12,7 +15,7 @@
       "views": 108,
       "subscriptions": 14,
       "favorites": 4,
-      "comments": null,
+      "comments": 1,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -28,7 +31,7 @@
       "views": 66,
       "subscriptions": 12,
       "favorites": 4,
-      "comments": null,
+      "comments": 0,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -44,7 +47,7 @@
       "views": 312,
       "subscriptions": 169,
       "favorites": 22,
-      "comments": null,
+      "comments": 2,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -60,7 +63,7 @@
       "views": 1398,
       "subscriptions": 281,
       "favorites": 56,
-      "comments": null,
+      "comments": 1,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -76,7 +79,7 @@
       "views": 3429,
       "subscriptions": 383,
       "favorites": 88,
-      "comments": null,
+      "comments": 12,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -92,7 +95,7 @@
       "views": 1196,
       "subscriptions": 182,
       "favorites": 33,
-      "comments": null,
+      "comments": 2,
       "delta": {
         "views": null,
         "subscriptions": null,
@@ -108,7 +111,7 @@
       "views": 761,
       "subscriptions": 49,
       "favorites": 20,
-      "comments": null,
+      "comments": 2,
       "delta": {
         "views": null,
         "subscriptions": null,
