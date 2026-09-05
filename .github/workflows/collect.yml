@@ -1,0 +1,47 @@
+name: Collect Steam Workshop stats
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/collect.py"
+      - ".github/workflows/collect.yml"
+  schedule:
+    # 22:50 Asia/Shanghai (UTC+8)
+    - cron: "50 14 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: steam-workshop-stats
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Query Steam and build daily snapshot
+        run: python scripts/collect.py
+
+      - name: Commit data
+        run: |
+          git config user.name "steam-mod-stats-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/latest.md data/history/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: update Steam Workshop stats"
+            git push
+          fi
