@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "generated_at": "2026-09-06T01:53:25.705240+08:00",
+  "generated_at": "2026-09-06T01:53:47.037189+08:00",
   "timezone": "Asia/Shanghai",
   "source": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
   "mods": [
@@ -41,7 +41,7 @@
       "name": "Relic Rewards: Choose One of Three",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496596",
       "steam_result": 1,
-      "views": 311,
+      "views": 312,
       "subscriptions": 169,
       "favorites": 22,
       "comments": null,
