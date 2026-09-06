@@ -43,5 +43,6 @@ jobs:
             echo "No data changes."
           else
             git commit -m "data: update Steam Workshop stats"
+            git pull --rebase origin main
             git push
           fi
