@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T00:39:32.380837+08:00",
+  "generated_at": "2026-09-08T20:00:01.599806+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "stats": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
@@ -12,14 +12,14 @@
       "name": "Yoink! — Speed Picks",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795933082",
       "steam_result": 1,
-      "views": 268,
-      "subscriptions": 56,
-      "favorites": 13,
+      "views": 310,
+      "subscriptions": 58,
+      "favorites": 16,
       "comments": 1,
       "delta": {
-        "views": 18,
-        "subscriptions": 10,
-        "favorites": 1,
+        "views": 60,
+        "subscriptions": 12,
+        "favorites": 4,
         "comments": 0
       }
     },
@@ -28,14 +28,14 @@
       "name": "Always Fight Two Bosses at Any Ascension",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496818",
       "steam_result": 1,
-      "views": 148,
-      "subscriptions": 31,
-      "favorites": 6,
+      "views": 200,
+      "subscriptions": 42,
+      "favorites": 7,
       "comments": 0,
       "delta": {
-        "views": 12,
-        "subscriptions": 5,
-        "favorites": 0,
+        "views": 64,
+        "subscriptions": 16,
+        "favorites": 1,
         "comments": 0
       }
     },
@@ -44,15 +44,15 @@
       "name": "Relic Rewards: Choose One of Three",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496596",
       "steam_result": 1,
-      "views": 1946,
-      "subscriptions": 994,
-      "favorites": 68,
-      "comments": 7,
+      "views": 4087,
+      "subscriptions": 1833,
+      "favorites": 124,
+      "comments": 8,
       "delta": {
-        "views": 487,
-        "subscriptions": 222,
-        "favorites": 13,
-        "comments": 2
+        "views": 2628,
+        "subscriptions": 1061,
+        "favorites": 69,
+        "comments": 3
       }
     },
     {
@@ -60,13 +60,13 @@
       "name": "ORBSSSSSSS！！！！",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786269745",
       "steam_result": 1,
-      "views": 1420,
-      "subscriptions": 289,
+      "views": 1424,
+      "subscriptions": 291,
       "favorites": 56,
       "comments": 1,
       "delta": {
-        "views": 3,
-        "subscriptions": -1,
+        "views": 7,
+        "subscriptions": 1,
         "favorites": -1,
         "comments": 0
       }
@@ -76,14 +76,14 @@
       "name": "Prismatic Gem",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778713629",
       "steam_result": 1,
-      "views": 3459,
+      "views": 3473,
       "subscriptions": 391,
-      "favorites": 88,
+      "favorites": 89,
       "comments": 12,
       "delta": {
-        "views": 1,
+        "views": 15,
         "subscriptions": 0,
-        "favorites": 0,
+        "favorites": 1,
         "comments": 0
       }
     },
@@ -92,14 +92,14 @@
       "name": "德纳修斯大帝 / Sire Denathrius",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3772547670",
       "steam_result": 1,
-      "views": 1207,
-      "subscriptions": 184,
-      "favorites": 33,
+      "views": 1210,
+      "subscriptions": 182,
+      "favorites": 32,
       "comments": 2,
       "delta": {
-        "views": 1,
-        "subscriptions": 1,
-        "favorites": 0,
+        "views": 4,
+        "subscriptions": -1,
+        "favorites": -1,
         "comments": 0
       }
     },
