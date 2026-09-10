@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T19:59:18.074662+08:00",
+  "generated_at": "2026-09-10T23:10:56.916399+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "stats": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
@@ -12,14 +12,14 @@
       "name": "Yoink! — Speed Picks",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795933082",
       "steam_result": 1,
-      "views": 376,
-      "subscriptions": 70,
-      "favorites": 19,
+      "views": 384,
+      "subscriptions": 73,
+      "favorites": 21,
       "comments": 1,
       "delta": {
-        "views": 25,
-        "subscriptions": 4,
-        "favorites": 2,
+        "views": 33,
+        "subscriptions": 7,
+        "favorites": 4,
         "comments": 0
       }
     },
@@ -28,12 +28,12 @@
       "name": "Always Fight Two Bosses at Any Ascension",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496818",
       "steam_result": 1,
-      "views": 318,
+      "views": 324,
       "subscriptions": 77,
       "favorites": 13,
       "comments": 0,
       "delta": {
-        "views": 43,
+        "views": 49,
         "subscriptions": 15,
         "favorites": 2,
         "comments": 0
@@ -44,14 +44,14 @@
       "name": "Relic Rewards: Choose One of Three",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496596",
       "steam_result": 1,
-      "views": 16191,
-      "subscriptions": 6333,
-      "favorites": 425,
+      "views": 17227,
+      "subscriptions": 6865,
+      "favorites": 458,
       "comments": 20,
       "delta": {
-        "views": 4590,
-        "subscriptions": 1688,
-        "favorites": 103,
+        "views": 5626,
+        "subscriptions": 2220,
+        "favorites": 136,
         "comments": 1
       }
     },
@@ -60,12 +60,12 @@
       "name": "ORBSSSSSSS！！！！",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786269745",
       "steam_result": 1,
-      "views": 1445,
+      "views": 1448,
       "subscriptions": 297,
       "favorites": 58,
       "comments": 1,
       "delta": {
-        "views": 8,
+        "views": 11,
         "subscriptions": 0,
         "favorites": 1,
         "comments": 0
@@ -77,12 +77,12 @@
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778713629",
       "steam_result": 1,
       "views": 3498,
-      "subscriptions": 400,
+      "subscriptions": 399,
       "favorites": 90,
       "comments": 12,
       "delta": {
         "views": 10,
-        "subscriptions": -1,
+        "subscriptions": -2,
         "favorites": 0,
         "comments": 0
       }
