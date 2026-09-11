@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T20:02:12.306114+08:00",
+  "generated_at": "2026-09-11T23:12:47.329406+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "stats": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
@@ -12,13 +12,13 @@
       "name": "Yoink! — Speed Picks",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795933082",
       "steam_result": 1,
-      "views": 409,
-      "subscriptions": 77,
+      "views": 419,
+      "subscriptions": 79,
       "favorites": 25,
       "comments": 1,
       "delta": {
-        "views": 25,
-        "subscriptions": 4,
+        "views": 35,
+        "subscriptions": 6,
         "favorites": 4,
         "comments": 0
       }
@@ -28,13 +28,13 @@
       "name": "Always Fight Two Bosses at Any Ascension",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496818",
       "steam_result": 1,
-      "views": 374,
-      "subscriptions": 86,
+      "views": 388,
+      "subscriptions": 91,
       "favorites": 14,
       "comments": 0,
       "delta": {
-        "views": 50,
-        "subscriptions": 9,
+        "views": 64,
+        "subscriptions": 14,
         "favorites": 1,
         "comments": 0
       }
@@ -44,14 +44,14 @@
       "name": "Relic Rewards: Choose One of Three",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496596",
       "steam_result": 1,
-      "views": 21064,
-      "subscriptions": 8301,
-      "favorites": 543,
+      "views": 21696,
+      "subscriptions": 8685,
+      "favorites": 565,
       "comments": 21,
       "delta": {
-        "views": 3837,
-        "subscriptions": 1436,
-        "favorites": 85,
+        "views": 4469,
+        "subscriptions": 1820,
+        "favorites": 107,
         "comments": 1
       }
     },
@@ -60,13 +60,13 @@
       "name": "ORBSSSSSSS！！！！",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786269745",
       "steam_result": 1,
-      "views": 1462,
-      "subscriptions": 301,
+      "views": 1468,
+      "subscriptions": 302,
       "favorites": 59,
       "comments": 1,
       "delta": {
-        "views": 14,
-        "subscriptions": 4,
+        "views": 20,
+        "subscriptions": 5,
         "favorites": 1,
         "comments": 0
       }
@@ -76,12 +76,12 @@
       "name": "Prismatic Gem",
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778713629",
       "steam_result": 1,
-      "views": 3503,
+      "views": 3506,
       "subscriptions": 397,
       "favorites": 91,
       "comments": 12,
       "delta": {
-        "views": 5,
+        "views": 8,
         "subscriptions": -2,
         "favorites": 1,
         "comments": 0
@@ -93,12 +93,12 @@
       "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3772547670",
       "steam_result": 1,
       "views": 1228,
-      "subscriptions": 184,
+      "subscriptions": 182,
       "favorites": 31,
       "comments": 2,
       "delta": {
         "views": 7,
-        "subscriptions": 3,
+        "subscriptions": 1,
         "favorites": 0,
         "comments": 0
       }
