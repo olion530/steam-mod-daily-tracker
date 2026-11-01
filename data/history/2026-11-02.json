@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T01:14:39.209112+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": {
+    "stats": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+    "comments": "Steam Community PublishedFile_Public comment endpoint"
+  },
+  "mods": [
+    {
+      "id": "3795933082",
+      "name": "Yoink! — Speed Picks",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795933082",
+      "steam_result": 1,
+      "views": 613,
+      "subscriptions": 106,
+      "favorites": 27,
+      "comments": 2,
+      "delta": {
+        "views": 4,
+        "subscriptions": 1,
+        "favorites": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "3795496818",
+      "name": "Always Fight Two Bosses at Any Ascension",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496818",
+      "steam_result": 1,
+      "views": 724,
+      "subscriptions": 164,
+      "favorites": 38,
+      "comments": 0,
+      "delta": {
+        "views": 7,
+        "subscriptions": -1,
+        "favorites": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "3795496596",
+      "name": "Relic Rewards: Choose One of Three",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3795496596",
+      "steam_result": 1,
+      "views": 43648,
+      "subscriptions": 22265,
+      "favorites": 2114,
+      "comments": 36,
+      "delta": {
+        "views": 532,
+        "subscriptions": 407,
+        "favorites": 38,
+        "comments": 1
+      }
+    },
+    {
+      "id": "3786269745",
+      "name": "ORBSSSSSSS！！！！",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3786269745",
+      "steam_result": 1,
+      "views": 1861,
+      "subscriptions": 321,
+      "favorites": 81,
+      "comments": 1,
+      "delta": {
+        "views": 4,
+        "subscriptions": 2,
+        "favorites": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "3778713629",
+      "name": "Prismatic Gem",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3778713629",
+      "steam_result": 1,
+      "views": 4044,
+      "subscriptions": 407,
+      "favorites": 121,
+      "comments": 12,
+      "delta": {
+        "views": 22,
+        "subscriptions": 5,
+        "favorites": 1,
+        "comments": 0
+      }
+    },
+    {
+      "id": "3772547670",
+      "name": "德纳修斯大帝 / Sire Denathrius",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3772547670",
+      "steam_result": 1,
+      "views": 1393,
+      "subscriptions": 197,
+      "favorites": 35,
+      "comments": 2,
+      "delta": {
+        "views": 0,
+        "subscriptions": 0,
+        "favorites": 0,
+        "comments": 0
+      }
+    },
+    {
+      "id": "3752747984",
+      "name": "OUCHMOD",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3752747984",
+      "steam_result": 1,
+      "views": 792,
+      "subscriptions": 57,
+      "favorites": 20,
+      "comments": 2,
+      "delta": {
+        "views": 0,
+        "subscriptions": -1,
+        "favorites": 0,
+        "comments": 0
+      }
+    }
+  ]
+}
