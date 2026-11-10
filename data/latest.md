@@ -1,13 +1,13 @@
-# STS2 MOD 日报 — 2026-11-10
+# STS2 MOD 日报 — 2026-11-11
 
-采集时间：2026-11-10 05:37:43（Asia/Shanghai）
+采集时间：2026-11-11 02:50:12（Asia/Shanghai）
 
 | MOD | 浏览量 | 较昨日 | 订阅量 | 较昨日 | 收藏量 | 较昨日 | 留言 | 较昨日 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Yoink! — Speed Picks | 631 | +2 | 106 | +2 | 29 | +1 | 2 | 0 |
-| Always Fight Two Bosses at Any Ascension | 764 | +2 | 160 | 0 | 41 | 0 | 0 | 0 |
-| Relic Rewards: Choose One of Three | 46,491 | +335 | 24,207 | +215 | 2,301 | +20 | 36 | 0 |
-| ORBSSSSSSS！！！！ | 1,896 | +10 | 317 | +7 | 83 | 0 | 1 | 0 |
-| Prismatic Gem | 4,211 | +14 | 434 | +4 | 127 | 0 | 12 | 0 |
-| 德纳修斯大帝 / Sire Denathrius | 1,415 | +5 | 192 | +1 | 35 | 0 | 2 | 0 |
-| OUCHMOD | 797 | +2 | 56 | 0 | 20 | 0 | 2 | 0 |
+| Yoink! — Speed Picks | 634 | +3 | 105 | -1 | 29 | 0 | 2 | 0 |
+| Always Fight Two Bosses at Any Ascension | 769 | +5 | 162 | +2 | 42 | +1 | 0 | 0 |
+| Relic Rewards: Choose One of Three | 46,816 | +325 | 24,419 | +212 | 2,322 | +21 | 36 | 0 |
+| ORBSSSSSSS！！！！ | 1,898 | +2 | 318 | +1 | 83 | 0 | 1 | 0 |
+| Prismatic Gem | 4,218 | +7 | 436 | +2 | 127 | 0 | 12 | 0 |
+| 德纳修斯大帝 / Sire Denathrius | 1,416 | +1 | 192 | 0 | 35 | 0 | 2 | 0 |
+| OUCHMOD | 797 | 0 | 56 | 0 | 20 | 0 | 2 | 0 |
